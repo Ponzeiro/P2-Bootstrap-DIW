@@ -24,3 +24,7 @@
     padding: 8px 14px;
     z-index: 100;
 }
+
+a {
+    text-decoration-style: none !important;
+}
