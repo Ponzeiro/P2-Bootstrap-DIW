@@ -9,3 +9,5 @@ Se añadió el main, imagenes y estilos en el archivo estilos.css.
 
 ## Día 4 - 18/11/2025
 Se añadió el footer y el icono "sandwich" en el apartado nav.
+También se añadieron comentarios al index.html
+
