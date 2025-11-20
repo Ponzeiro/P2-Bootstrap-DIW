@@ -14,6 +14,11 @@
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3">
                 <div class="navbar-brand">Accesibilidad Web</div>
 
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+                    aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
                 <div class="collapse navbar-collapse flex-row-reverse" id="menu">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a href="#info" class="nav-link">Información</a></li>
@@ -21,9 +26,6 @@
                         <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
                     </ul>
                 </div>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
             </nav>
         </header>
 
@@ -35,9 +37,9 @@
                 </div>
             </section>
             <!--Carrusel de imagenes copiado de bootstrap-->
-            <section class="container-fluid px-0">
+            <section class="container-fluid">
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
+                    <div class="carousel-inner mw-100">
                         <div class="carousel-item active">
                             <img src="multimedia/img/carrusel1.jpeg" class="d-block w-100 h-40" alt="Imagen carrusel 1">
                         </div>
@@ -48,11 +50,13 @@
                             <img src="multimedia/img/carrusel3.png" class="d-block w-100 h-40" alt="Imagen carrusel 3">
                         </div>
                     </div>
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
                 </div>
             </section>
             <!--Texto informativo de la web-->
@@ -66,20 +70,20 @@
                         y cumple con normativas internacionales como las WCAG.
                     </p>
                 </div>
-                <div class="row align-items-center px-3 mb-5">
+                <div class="row align-items-center mb-5 p-0 w-100">
             <!--Imagen 1-->
                     <div class="col-md-6 mb-3">
-                        <div class="placeholder-box rounded d-flex justify-content-center align-items-center">
+                        <div class="rounded d-flex justify-content-center align-items-center">
                             <img src="multimedia/img/accesibilidad1.png"
-                                class="img-fluid float-start rounded"
+                                class="img-fluid rounded w-50"
                                 alt="Ilustración representando accesibilidad digital">
                         </div>
                     </div>
             <!--Imagen 2-->
                     <div class="col-md-6 mb-3">
-                        <div class="placeholder-box rounded d-flex justify-content-center align-items-center">
+                        <div class="rounded d-flex justify-content-center align-items-center">
                             <img src="multimedia/img/accesibilidad2.png"
-                                class="img-fluid float-end rounded"
+                                class="img-fluid rounded w-50"
                                 alt="Persona utilizando un lector de pantalla">
                         </div>
                     </div>
@@ -88,7 +92,7 @@
             <!--Apartado donde hay unas viñetas con texto-->
             <section id="servicios" aria-labelledby="titulo-servicios">
                 <h2 id="titulo-servicios" class="text-center">Servicios de Accesibilidad</h2>
-                <div class="row g-4 mb-5">
+                <div class="row g-4 mb-5 w-100">
                     <div class="col-md-4">
                         <article class="card h-100" aria-labelledby="card1-title">
                             <div class="card-body">

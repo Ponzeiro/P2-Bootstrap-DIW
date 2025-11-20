@@ -4,7 +4,9 @@
     box-sizing: border-box;
     font-family: Poppins, sans-serif;
 }
-
+body{
+    width: 100%;
+}
 .hero-box {
     height: 120px;
 }
@@ -28,3 +30,17 @@ a {
     height: 40vh;
     width: 100vw;
 }
+
+/* Fondo transparente en los controles */
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+/* Iconos negros */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1); /* Los iconos por defecto son blancos, esto los vuelve negros */
+}
+
