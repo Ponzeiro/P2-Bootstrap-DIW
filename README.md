@@ -1,3 +1,4 @@
+
 ## Día 1 - 6/11/2025 
 Estructura creada y subida.
 
@@ -14,3 +15,6 @@ También se añadieron comentarios al index.html
 ## Día 5 - 20/11/2025
 Se cambiaron las propiedas y se puso todo con bootstrap.
 (El carrusel no está completo al 100%, tiene algún fallo que hay que arreglar)
+Carrusel arreglado y index.html finalizado.
+Creación del archivo secundaria.html.
+
