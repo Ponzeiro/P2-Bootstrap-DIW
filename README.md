@@ -18,3 +18,5 @@ Se cambiaron las propiedas y se puso todo con bootstrap.
 Carrusel arreglado y index.html finalizado.
 Creación del archivo secundaria.html.
 
+## Día 6 - 22/11/2025
+Finalizado el archivo secundaria.html
